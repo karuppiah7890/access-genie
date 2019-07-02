@@ -1,2 +1,2 @@
 build:
-	go build -o out/access-genie -v
+	go build -o out/access-genie -v -mod=vendor

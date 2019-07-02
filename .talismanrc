@@ -2,3 +2,21 @@ fileignoreconfig:
 - filename: go.sum
   checksum: cb313089ad11994c46e1c68b7ce5e139a538e2b5c08016cf67cb6abb69ef6bbf
   ignore_detectors: []
+- filename: vendor/github.com/nlopes/slack/go.sum
+  checksum: ff38924ceda29a6aed80800671fc22b6aa833ef8b85944877e149650b4eff44e
+  ignore_detectors: []
+- filename: vendor/github.com/shomali11/slacker/go.sum
+  checksum: 9501cf77168334887a4a3b00a68438844700d2ac85fa3833696b9c0fe62ff26a
+  ignore_detectors: []
+- filename: vendor/github.com/shomali11/commander/Gopkg.lock
+  checksum: 1714aed4212775f0c468565e6a6b46f907af97aa088ebd171526d8bfe9ae5344
+  ignore_detectors: []
+- filename: vendor/github.com/shomali11/proper/Gopkg.lock
+  checksum: 7da3fa94aa18a024adbd9898cf68d2219524197e5f5391311e6bbc107a033e55
+  ignore_detectors: []
+- filename: vendor/github.com/gorilla/websocket/x_net_proxy.go
+  checksum: 268da4ff7a23336243592bf8dc21734ec33fed0dbe188b5bd4bfc5a464ffa94e
+  ignore_detectors: []
+- filename: vendor/github.com/nlopes/slack/users.go
+  checksum: 9e8a38761716839462053ab29738a42137a2545d624bd61e1bf69bd9abaf190a
+  ignore_detectors: []
