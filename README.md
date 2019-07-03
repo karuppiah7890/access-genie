@@ -32,3 +32,26 @@ $ source .env
 ```
 $ access-genie
 ```
+
+## Contributing
+
+1. Clone the repo outside `$GOPATH` as this project uses go modules
+
+```
+$ git clone https://github.com/karuppiah7890/access-genie
+```
+
+2. Build it
+
+```
+$ make build
+```
+
+3. Set it up and run it
+
+```
+$ make setup
+$ vi .env # change the slack token
+$ source .env
+$ ./out/access-genie
+```
