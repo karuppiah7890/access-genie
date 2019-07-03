@@ -11,3 +11,24 @@
 5. Go to "Install App" section in the left navigation bar
 6. Install the app in your workspace
 7. Get the "Bot User OAuth Access Token". This is the token needed for access-genie bot
+
+### Running the server
+
+1. Put the token in an `.env` file
+
+```
+# .env file
+export SLACK_TOKEN="your-token"
+```
+
+2. Source the `.env` file
+
+```
+$ source .env
+```
+
+3. Run the server
+
+```
+$ access-genie
+```

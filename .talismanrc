@@ -20,3 +20,6 @@ fileignoreconfig:
 - filename: vendor/github.com/nlopes/slack/users.go
   checksum: 9e8a38761716839462053ab29738a42137a2545d624bd61e1bf69bd9abaf190a
   ignore_detectors: []
+- filename: .env.sample
+  checksum: 853b6970a954f133d8343d37b844ed1b0ca7308dd91a4a96b8c1f55ef0752be1
+  ignore_detectors: []
