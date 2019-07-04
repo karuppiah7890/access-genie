@@ -5,6 +5,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/karuppiah7890/access-genie/slackutils"
+	"github.com/nlopes/slack"
 	"github.com/shomali11/slacker"
 )
 
@@ -24,7 +26,17 @@ func main() {
 		},
 	}
 
+	listCommand := &slacker.CommandDefinition{
+		Handler: func(request slacker.Request, response slacker.ResponseWriter) {
+			slackMessage := slackutils.SelectBlockForList([]string{"cluster-one", "cluster-two"})
+			section := slackutils.SectionBlock("Choose the cluster you want access to", slackMessage)
+			blocks := []slack.Block{section}
+			response.Reply("", slacker.WithBlocks(blocks))
+		},
+	}
+
 	bot.Command("ping", pingCommand)
+	bot.Command("list", listCommand)
 
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
