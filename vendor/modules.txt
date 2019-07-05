@@ -1,5 +1,13 @@
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
 # github.com/gorilla/websocket v1.4.0
 github.com/gorilla/websocket
+# github.com/klauspost/compress v1.7.1
+github.com/klauspost/compress/flate
+github.com/klauspost/compress/gzip
+github.com/klauspost/compress/zlib
+# github.com/klauspost/cpuid v1.2.1
+github.com/klauspost/cpuid
 # github.com/nlopes/slack v0.5.1-0.20190605211732-a05dfd3f167d
 github.com/nlopes/slack
 github.com/nlopes/slack/internal/errorsx
@@ -7,9 +15,19 @@ github.com/nlopes/slack/internal/timex
 github.com/nlopes/slack/slackutilsx
 # github.com/pkg/errors v0.8.1
 github.com/pkg/errors
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
 # github.com/shomali11/commander v0.0.0-20190312174449-57e7c4df59d6
 github.com/shomali11/commander
 # github.com/shomali11/proper v0.0.0-20180607004733-233a9a872c30
 github.com/shomali11/proper
 # github.com/shomali11/slacker v0.0.0-20190608032631-289f4e2732b6
 github.com/shomali11/slacker
+# github.com/stretchr/testify v1.3.0
+github.com/stretchr/testify/assert
+# github.com/valyala/bytebufferpool v1.0.0
+github.com/valyala/bytebufferpool
+# github.com/valyala/fasthttp v1.3.0
+github.com/valyala/fasthttp
+github.com/valyala/fasthttp/fasthttputil
+github.com/valyala/fasthttp/stackless
