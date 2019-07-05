@@ -1,6 +1,6 @@
 fileignoreconfig:
 - filename: go.sum
-  checksum: cb313089ad11994c46e1c68b7ce5e139a538e2b5c08016cf67cb6abb69ef6bbf
+  checksum: 3569d1b90aeb8a7358de21c42baf145718228e6e2e1de501d84e1af8d2d78cf6
   ignore_detectors: []
 - filename: vendor/github.com/nlopes/slack/go.sum
   checksum: ff38924ceda29a6aed80800671fc22b6aa833ef8b85944877e149650b4eff44e

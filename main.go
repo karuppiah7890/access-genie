@@ -4,6 +4,7 @@ import (
 	"context"
 	"log"
 	"os"
+	"strconv"
 
 	"github.com/karuppiah7890/access-genie/slackutils"
 	"github.com/nlopes/slack"
@@ -16,7 +17,10 @@ func main() {
 		panic("error: SLACK_TOKEN environment variable is not set")
 	}
 
-	bot := slacker.NewClient(slackToken)
+	debugStr := os.Getenv("DEBUG")
+	debug, _ := strconv.ParseBool(debugStr)
+
+	bot := slacker.NewClient(slackToken, slacker.WithDebug(debug))
 
 	pingCommand := &slacker.CommandDefinition{
 		Description: "Ping!",
