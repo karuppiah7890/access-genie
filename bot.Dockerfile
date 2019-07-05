@@ -4,6 +4,6 @@ ADD . .
 RUN make build
 
 FROM alpine
-COPY --from=build /app/access-genie/out/access-genie /usr/bin
+COPY --from=build /app/access-genie/out/access-genie-bot /usr/bin
 RUN apk add ca-certificates
-CMD ["access-genie"]
+CMD ["access-genie-bot"]
